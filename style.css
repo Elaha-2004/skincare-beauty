@@ -1,0 +1,351 @@
+   body {
+      font-family: Arial, sans-serif;
+      
+    }
+    /*Home*/
+     .background-image{
+      background-image:url('Backgrond.jpeg');
+      height: 400px;
+      margin-top: 58px;
+      background-repeat: no-repeat;
+      background-size :cover;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+     }
+     .banner-text{
+    
+      align-items: center;
+     }
+     
+   .category img {
+  width: 800px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.category p {
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+}
+.skinSteps-steps{
+  display: flex;
+  gap: 200px;
+  width: 600px;
+  margin-top: 50px;
+}
+.skinSteps-steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+/*About section*/
+      .hero-img {
+      max-width: 100%;
+      border-radius: 10px;
+      width: 500px;
+      height: 500px;
+    }
+    .about-section h2 {
+      color: #6b4c3b;
+    }
+    .read-more-btn {
+      background-color:#6b4c3b;
+      color:white;
+      border: none;
+    }
+    
+/*Advice section*/
+    .advice-section {
+      padding: 60px 20px;
+      background-color: #f8f9fa;
+    }
+    .advice-section img {
+      max-width: 80%;
+      border-radius: 8px;
+    }
+    /*Blogs section*/
+    
+      .blog-card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .blog-card:hover {
+      transform: translateY(-5px);
+    }
+    .blog-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .date-badge {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      background-color: #6b4c3b;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .blog-content {
+      padding: 20px;
+   }
+    .blog-title {
+      font-size: 20px;
+      font-weight: 600;
+      color: #6b4c3b;
+    }
+    .blog-meta {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 10px;
+    }
+    .blog-desc {
+      font-size: 15px;
+      color: #555;
+    }
+    .read-btn {
+      background-color: #6b4c3b;
+      color: white;
+      border: none;
+    }
+    /*Discount section*/
+    .autumn-offer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f76c5e;
+  padding: 40px 20px;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.offer-content {
+  flex: 1;
+  max-width: 400px;
+  background-color: #fff;
+  color: #333;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.offer-content h4 {
+  color: #d35400;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.offer-content h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.offer-content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.shop-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #f76c5e;
+  border: 2px solid #e25549;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.shop-btn:hover {
+  background-color: #ffe3df;
+}
+
+.offer-visual {
+  flex: 1;
+  position: relative;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url('fall1.jpeg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.container4{
+   body {
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  .form-label {
+    font-weight: 500;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+}
+/*Footr Form*/ 
+
+form {
+  background-color: #f8f8f8;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  border: 5px;
+}
+
+.footerForm__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.footerForm-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.footerForm-inputs-item {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerForm-inputs-item input {
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.footerForm-inputs-item--radio {
+  flex: 1 1 100%;
+  margin-top: 20px;
+}
+
+.radioGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.radioGroup__item label {
+  margin-left: 5px;
+}
+
+.footerForm__disclaimer {
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footerForm__btn {
+  margin-top: 25px;
+  padding: 12px 30px;
+  background-color:#f76c5e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footerForm__btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #f76c5e;
+  color: white;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.feature i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  margin: 10px 0 5px;
+}
+
+.footer-bottom {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.column h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+.column a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.column a:hover {
+  text-decoration: underline;
+}
+
+.column input {
+  padding: 8px;
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.column button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: white;
+  color: #ff6f61;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.column button:hover {
+  background-color: #ffe3df;
+}
+
+  

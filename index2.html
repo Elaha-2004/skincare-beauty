@@ -1,0 +1,317 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkinCare & Beauty</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+ <!-- Bootstrap CSS (include in <head>) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">SkinNurture</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav me-3">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+         <li class="nav-item"><a class="nav-link" href="#about">About us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="#advice">Advice</a></li>
+         <li class="nav-item"><a class="nav-link" href="#blog">Blogs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+         <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+         <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout</a></li>
+      </ul>
+      <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+    </div>
+  </div>
+</nav>
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Login to SkinNurture</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="emailInput" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="you@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="passwordInput" class="form-label">Password</label>
+            <input type="password" class="form-control" id="passwordInput" placeholder="••••••••">
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+     <!-- Background image -->
+      <section id="home">
+  <div class="background-image">
+    <div class="banner-text">
+      <h1 class="fw-bold">Nourish Your Skin</h1>
+      <p class="text-muted">Discover the best products for your skin type.</p>
+      <a href="#products" class="btn btn-primary">Shop Now</a>
+    </div>
+  </div></section>
+  </header>
+  <!--Skin steps-->
+  <section>
+  <div class="container">
+    <div class="skinSteps">
+      <div class="skinSteps__title"><h1>Take your skincare further</h1></div>
+      <div class="richtext skinSteps__subtitle">
+         Build your own regimen or let us help you with our 
+         <a href="quiz.html">Skincare Solution Finder Quiz!</a></div>
+         <div class="skinSteps__divider"></div>
+         <ul class="skinSteps-steps"><li class="skinSteps-step"><div class="image">
+          <img src="step1.svg" alt="step1" class="image__item -loaded" style="max-width: 100%; height: auto;">
+</div>
+          <p class="skinSteps-step__title">Step 1</p><p class="skinSteps-step__text">Facial Cleansers</p></li><li class="skinSteps-step">
+          <div class="image"><img src="step2.webp" alt="Treatment" class="image__item -loaded"style="max-width: 100%; height: auto;"></div><p class="skinSteps-step__title">Step 2</p><p class="skinSteps-step__text">Treatment</p></li><li class="skinSteps-step">
+            <div class="image"><img src="step3.webp" alt="Facial-Moisturizers" class="image__item -loaded"style="max-width: 100%; height: auto;"></div><p class="skinSteps-step__title">Step 3</p><p class="skinSteps-step__text">Facial Moisturizers</p></li><li class="skinSteps-step">
+          <div class="image"><img src="step4.webp" alt="Sunscreen" class="image__item -loaded"style="max-width: 100%; height: auto;"></div><p class="skinSteps-step__title">Step 4</p><p class="skinSteps-step__text">Sunscreen</p></li></ul></div></div>
+            </section>
+<!-- Hero Section -->
+ <section id="about">
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="Treat your skin to a little spa moment at home….jpeg" alt="Skincare Model" class="hero-img">
+      </div>
+      <div class="col-md-6 about-section">
+        <h2 class="mb-3">About Us...</h2>
+        <p>
+          At Skincare Bliss, we believe beauty begins with healthy skin. Our products are crafted with natural ingredients, backed by science, and loved by dermatologists. Whether you're looking to hydrate, brighten, or rejuvenate, we’ve got you covered.
+        </p>
+        <button class="btn read-more-btn mt-3" >Read More</button>
+      </div>
+    </div>
+  </div>
+  </section>
+  
+  <!-- Products -->
+  <section id="products" class="container py-5">
+    <h2 class="mb-4">Products</h2>
+    <div class="row g-4">
+      <!-- Product Card -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="moisturizing cream.jpeg" class="card-img-top" alt="Moisturizer">
+          <div class="card-body">
+            <h5 class="card-title">Moisturizing Cream</h5>
+            <p class="card-text">$25 - Keeps your skin glowing</p>
+            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+        <div class="col-md-3">
+        <div class="card h-100">
+          <img src="Cleanser.jpeg" class="card-img-top" alt="Cleanser">
+          <div class="card-body">
+            <h5 class="card-title">Purifying Cleanser</h5>
+            <p class="card-text">$18 - Gentle daily cleanser</p>
+            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+          </div>
+           </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="Serum.jpeg" class="card-img-top" alt="Serum">
+          <div class="card-body">
+            <h5 class="card-title">Illuminating Serum</h5>
+            <p class="card-text">$35 - Brightens skin tone</p>
+            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="Toner.jpeg" class="card-img-top" alt="Toner">
+          <div class="card-body">
+            <h5 class="card-title">Revitalizing Toner</h5>
+            <p class="card-text">$20 - Refreshes and balances</p>
+            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Advice Section -->
+  <section id="advice" class="advice-section container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h2>Skincare Advice</h2>
+        <p class="text-muted">
+      To maintain healthy, glowing skin, it's essential to follow a consistent skincare routine tailored to your skin type. Start by cleansing your face twice daily to remove dirt, oil, and impurities. Use a gentle exfoliator 2–3 times a week to slough off dead skin cells and promote cell renewal. Moisturizing is key—choose a hydrating formula that suits your skin, whether it's oily, dry, or combination. Don’t skip sunscreen, even on cloudy days, as UV rays can cause premature aging and damage. Lastly, stay hydrated, eat a balanced diet rich in antioxidants, and get enough sleep to support your skin from the inside out.
+ </p>
+      </div>
+      <div class="col-md-6">
+        <img src="Skincare.jpeg" alt="Skincare Advice">
+
+      </div>
+    </div>
+  </section>
+  
+    <!-- Blog Post 1 -->
+     <section id="blog">
+      <div class="blog-section d-flex gap-5">
+    <div class="col-md-4">
+      <div class="blog-card position-relative">
+        <span class="date-badge">12 Jan</span>
+        <img src="6.jpeg" class="blog-img" alt="Purple Flowers"style="width: 400px; height: 600px;">
+        <div class="blog-content">
+          <div class="blog-meta">By Admin</div>
+          <div class="blog-title">Relaxing Lavender Rituals</div>
+          <p class="blog-desc">Discover the calming power of lavender in your skincare routine. Perfect for evening self-care rituals.</p>
+          <button class="btn read-btn mt-2">Read More</button>
+        </div>
+      </div>
+    </div>
+  <!-- Blog Post 2 -->
+    <div class="col-md-4">
+      <div class="blog-card position-relative">
+        <span class="date-badge">19 Jan</span>
+        <img src="5.jpeg" class="blog-img" alt="Green Leaves"style="width: 400px; height: 600px;">
+        <div class="blog-content">
+          <div class="blog-meta">By Admin</div>
+           <div class="blog-title">Botanical Boosters</div>
+          <p class="blog-desc">Explore plant-based serums and oils that nourish your skin naturally. Green beauty at its finest.</p>
+          <button class="btn read-btn mt-2">Read More</button>
+        </div>
+      </div>
+    </div>
+    <!-- Blog Post 3 -->
+    <div class="col-md-4">
+      <div class="blog-card position-relative">
+        <span class="date-badge">02 Feb</span>
+        <img src="4.jpeg" class="blog-img" alt="Makeup Tools" style="width: 400px; height: 600px;">
+        <div class="blog-content">
+          <div class="blog-meta">By Admin</div>
+          <div class="blog-title">Glow-Up Essentials</div>
+          <p class="blog-desc">From brushes to balms, these must-have tools will elevate your skincare and makeup game.</p>
+          <button class="btn read-btn mt-2">Read More</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+     <!--Discount section-->
+          <section class="autumn-offer" id="offer">
+  <div class="offer-content">
+    <h4>Special Offer</h4>
+    <h2>Upto 50% Off</h2>
+    <p>
+Celebrate the beauty of autumn with our limited-time seasonal discounts! Enjoy up to 30% off on selected items as the leaves change and the weather cools. Whether you're shopping for fashion, home essentials, or gifts, now is the perfect time to save big. Don’t miss out—this autumn offer won't last long!
+.</p>
+    <a href="#products" class="shop-btn">Shop Now</a>
+  </div>
+  <div class="offer-visual">
+    <img src="fall1.jpeg"style="max-width: 100%; height: auto;">
+    </div>
+</section>
+<section id="contact">
+  <!--footer form-->
+ <form><p class="footerForm__title">Join for Tips &amp; Deals</p>
+  <div class="footerForm-inputs"><div class="footerForm-inputs-item"><label>First Name* <small>(required)</small></label>
+    <input type="text" placeholder="First Name*">
+  <!---->
+  </div><div class="footerForm-inputs-item">
+    <label>Last Name* <small>(required)</small></label>
+    <input type="text" placeholder="Last Name*">
+  <!---->
+  </div><div class="footerForm-inputs-item">
+    <label>Email* <small>(required)</small></label><input type="text" placeholder="Email*">
+  <!---->
+  </div><div class="footerForm-inputs-item footerForm-inputs-item--radio">
+    <label>Select Your Skin Type (optional)</label>
+    <div class="radioGroup"><div class="radioGroup__item">
+      <input id="Combination" type="radio" value="Combination">
+      <label for="Combination">Combination</label></div><div class="radioGroup__item">
+        <input id="Dry" type="radio" value="Dry"><label for="Dry">Dry</label></div>
+        <div class="radioGroup__item"><input id="Normal" type="radio" value="Normal">
+          <label for="Normal">Normal</label></div><div class="radioGroup__item">
+            <input id="Oily" type="radio" value="Oily"><label for="Oily">Oily</label></div>
+          </div></div></div><div class="footerForm__disclaimer">
+            <p><a href="https://mcqg7tb-yjgl2414mz73fvhqnjg1.pub.sfmc-content.com/yh0cl4pkpnc">Sensitive Collection Notice</a></p>
+          </div><button type="submit"  class="footerForm__btn">JOIN</button></form>
+<!--footer-->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="feature">
+      <i class="fas fa-truck"></i>
+      <h3>Free Delivery</h3>
+      <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adip.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-shield-alt"></i>
+      <h3>Secure Payments</h3>
+      <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adip.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-shield-alt"></i>
+      <h3>Secure Payments</h3>
+      <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adip.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-headset"></i>
+      <h3>24/7 Support</h3>
+      <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adip.</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="column">
+      <h4>Quick Links</h4>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Shop</a>
+      <a href="#products">Gallery</a>
+      <a href="#contactS">Message</a>
+    </div>
+    <div class="column">
+      <h4>Extra Links</h4>
+      <a href="#products">My Wishlist</a>
+      <a href="html#">My Order</a>
+      <a href="#checkout.html">My Wallet</a>
+      <a href="#home">Private Policy</a>
+      <a href="#home">Terms of Use</a>
+    </div>
+    <div class="column">
+      <h4>Contact Info</h4>
+      <p>📞+123-546-7890</p>
+       <p>📞+111-222-3333</p>
+       <p>📧Skinnurture@gmail.com</p>
+       <p>🏁 USA California-401203</p>
+       </div>
+
+        
+          
+      </section>
+  
+   <div><p> &copy; 2025 SkinCare & Beauty</p></div>
+  
+<!-- Bootstrap JS (include before </body>) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skin Care Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fefefe;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin: 5px 0;
+    }
+    button {
+      padding: 10px 20px;
+      background: #4caf50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Skin Care Solution Quiz</h2>
+
+  <div class="question">
+    <p>1. What is your skin type?</p>
+    <label><input type="radio" name="skinType" value="oily"> Oily</label>
+    <label><input type="radio" name="skinType" value="dry"> Dry</label>
+    <label><input type="radio" name="skinType" value="sensitive"> Sensitive</label>
+    <label><input type="radio" name="skinType" value="normal"> Normal</label>
+  </div>
+  <div class="question">
+    <p>2. What is your main skin concern?</p>
+    <label><input type="radio" name="concern" value="acne"> Acne</label>
+    <label><input type="radio" name="concern" value="wrinkles"> Wrinkles</label>
+    <label><input type="radio" name="concern" value="redness"> Redness</label>
+    <label><input type="radio" name="concern" value="dull"> Dull skin</label>
+  </div>
+
+  <button onclick="showSolution()">Get Solution</button>
+
+  <div id="result"></div>
+
+  <script>
+    function showSolution() {
+      const skinType = document.querySelector('input[name="skinType"]:checked');
+      const concern = document.querySelector('input[name="concern"]:checked');
+
+      if (!skinType || !concern) {
+        document.getElementById("result").innerText = "Please answer both questions.";
+        return;
+      }
+
+      let solution = "";
+
+      if (skinType.value === "oily" && concern.value === "acne") {
+        solution = "Use oil-free cleansers and products with salicylic acid.";
+      } else if (skinType.value === "dry" && concern.value === "wrinkles") {
+        solution = "Hydrate with hyaluronic acid and use anti-aging moisturizers.";
+      } else if (skinType.value === "sensitive") {
+        solution = "Use fragrance-free, calming products like aloe vera or chamomile.";
+        } else if (skinType.value === "normal") {
+        solution = "Maintain with gentle cleansers and balanced hydration.";
+      } else {
+        solution = "Consider a personalized routine with dermatologist advice.";
+      }
+
+      document.getElementById("result").innerText = "Recommended Solution: " + solution;
+    }
+  </script>
+
+</body>
+</html>
